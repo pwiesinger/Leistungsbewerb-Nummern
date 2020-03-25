@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var flowLayout: UICollectionViewFlowLayout!
     @IBOutlet weak var collectionView: UICollectionView!
-    let insets = UIEdgeInsets.init(top: 20, left: 20, bottom: 20, right: 20)
+    let insets = UIEdgeInsets.init(top: 10, left: 10, bottom: 10, right: 10)
     
     
     //var numbers = ["ME", "MA", "GRKDT", "1", "2", "3", "4", "5", "6"]
@@ -101,6 +101,6 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 100, height: 100)
+        return CGSize(width: 90, height: 90)
     }
 }
